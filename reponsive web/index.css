@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:  'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+
+.logo{
+    filter: brightness(0) invert(1);
+    height:33px ;
+    width:52px ;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #1b2526;
+    
+}
+
+.nav-links{
+    display: flex;
+}
+.nav-links li a{
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nav-links li a:hover{
+    color: rgb(167, 161, 161);
+    transition: 0.2s ease;
+}
+
+
+.btn-sm{
+    padding: 3px 14px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    border-radius: 4px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+#search{
+    
+    padding:5px;
+    border-radius: 6px;
+    border: none;
+}
+
+.firstSection::before{
+    content: "";
+    position: absolute;
+    background:url('bg3.jpg') center center no-repeat;
+    height: 74vh;
+    width: 98.7vw;
+    z-index: -1;
+    opacity: .85;
+}
+
+
+.sec-img{
+    height: 152px;
+    width: 222px;
+    border-radius: 200px;
+}
+.rand-img{
+    height: 170px;
+    width: 240px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.firsthalf{
+    color: white;
+}
+ .big-text {
+   
+    font-size: 35px;
+    
+}
+.small-text {
+   
+    font-size: 17px;
+    
+}
+
+.main-box{
+    padding: 154px;
+}
+
+.buttons{
+    padding: 12px 0;
+}
+
+.btn-sec{
+    padding: 5px 14px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    border-radius: 4px;
+    font-weight:600;
+    cursor: pointer;
+    
+}
+.btn-sec:hover{
+    background-color: rgb(19, 19, 19);
+}
+
+.secondhalf{
+    padding: 12px;
+}
+
+.secondSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px;
+    margin:0 70px;
+}
+.rev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 20px 60px;
+}
+
+.paras{
+    padding:50px  ;
+    
+}
+
+.subTag{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact{
+    background-color: rgb(239, 239, 239);
+    align-items: center;
+    text-align: center;
+    padding:30px 0;
+}
+
+.form{
+    padding: 12px 0;
+}
+.form input{
+    width: 27%;
+    padding:4px 15px;
+    margin: 12px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #263538;
+    color: white;
+}
+
+.burger{
+    display: none;
+}
+
+.line{
+    height: 6px;
+    width: 33px;
+    background-color: white;
+    margin: 3px;
+    border-radius: 3px;
+}
